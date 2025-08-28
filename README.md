@@ -31,7 +31,7 @@
 
 1. **GitHub Pull Request**
 
-   * Fork 本專案，將資料放入 `datasets/` 目錄下。
+   * Fork 本專案，將資料放入 `data/` 目錄下。
    * 格式建議：按照**標準資料集目錄結構**。
    * 發送 Pull Request 並在 PR 說明中附上授權確認。
 
