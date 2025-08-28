@@ -1,0 +1,16 @@
+# 預設規則：所有檔案都需要至少一位 Reviewer
+* @ReviewerTeam
+
+# raw 與 cleaned 可以由 ReviewerTeam 處理
+/data/raw/* @ReviewerTeam
+/data/cleaned/* @ReviewerTeam
+
+# final 必須由你本人審核
+/data/final/* @patricksheu
+
+# metadata 與 guidelines 由 Maintainer/你審核
+/metadata/* @patricksheu
+/guidelines/* @patricksheu
+
+# CI 工作流檔案也需要你審
+/.github/workflows/* @patricksheu
